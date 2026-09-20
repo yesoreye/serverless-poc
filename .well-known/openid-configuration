@@ -1,0 +1,22 @@
+{
+  "claims_supported": [
+    "iss",
+    "sub",
+    "aud",
+    "exp",
+    "iat",
+    "nbf",
+    "jti"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256"
+  ],
+  "issuer": "https://yesoreye.github.io/serverless-poc",
+  "jwks_uri": "https://yesoreye.github.io/serverless-poc/jwks.json",
+  "response_types_supported": [
+    "id_token"
+  ],
+  "subject_types_supported": [
+    "public"
+  ]
+}
